@@ -5,7 +5,7 @@
 
 ## Part 1 - GitHub Profile
 
-1. [DStarrett330 GitHub Profile](FIXTHISURL-https://github.com/DStarrett330)
+1. [DStarrett330 GitHub Profile](https://github.com/DStarrett330)
 
 ## Part 2 - Research
 

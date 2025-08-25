@@ -1,11 +1,11 @@
 ## Lab 01
 
-- Name:
-- Email:
+- Name: Drew Starrett
+- Email: starrett.10@wright.edu
 
 ## Part 1 - GitHub Profile
 
-1. [your_github_username_here's GitHub Profile](FIXTHISURL-https://github.com/your_username)
+1. [DStarrett330 GitHub Profile](FIXTHISURL-https://github.com/DStarrett330)
 
 ## Part 2 - Research
 

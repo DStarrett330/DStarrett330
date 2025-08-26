@@ -12,15 +12,15 @@
 | Windows | Linux / Mac | Action |
 | ---     | ---         | ---    |
 | help    | man         |Displays help about Windows PowerShell cmdlets and concepts.        |
-| Get-Location | pwd    |        |
-| Get-ChildItem | ls    |        |
-| mkdir   | mkdir       |        |
-| Set-Location | cd     |        |
-| New-Item | touch      |        |
-| Move-Item | mv        |        |
-| Copy-Item | cp        |        |
-| Remove-Item | rm      |        |
-| notepad.exe | vim     |        |
+| Get-Location | pwd    |Displays the full path of the current directory        |
+| Get-ChildItem | ls    |Gets the items in one or more specified locations        |
+| mkdir   | mkdir       |Creates a new directory        |
+| Set-Location | cd     |Sets the working location to a specified location        |
+| New-Item | touch      |Creates a new item and sets its value        |
+| Move-Item | mv        |Moves an item from one location to another        |
+| Copy-Item | cp        |Copies an item from one location to another location        |
+| Remove-Item | rm      |Deletes files and directories        |
+| notepad.exe | vim     |Launches notepad application        |
 
 ## Part 3 - Command Line Navigation
 

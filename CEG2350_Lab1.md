@@ -11,7 +11,7 @@
 
 | Windows | Linux / Mac | Action |
 | ---     | ---         | ---    |
-| help    | man         |Displays help about Windows PowerShell cmdlets and concepts.        |
+| help    | man         |Displays help about Windows PowerShell cmdlets and concepts        |
 | Get-Location | pwd    |Displays the full path of the current directory        |
 | Get-ChildItem | ls    |Gets the items in one or more specified locations        |
 | mkdir   | mkdir       |Creates a new directory        |
@@ -33,26 +33,29 @@ My Command Line Shell is: Powershell
 
 ### Navigating My OS on the Command Line
 
-1. Full / absolute path to your user's home directory:
-2. Create a directory named `DirA`:
-3. Create a directory named `Dir B`:
-4. Go into `DirA`:
-5. Go into `Dir B` from `DirA`:
-6. Return to your user's home directory:
-7. Create a file named `test.txt`:
-8. Move the file named `test.txt` into `DirA`:
-9. Contents of `test.txt`:
+1. Full / absolute path to your user's home directory: PS C:\Users\drews>
+2. Create a directory named `DirA`: New-Item -Name "DirA" -ItemType Directory
+3. Create a directory named `Dir B`: New-Item -Name "Dir B" -ItemType Directory
+4. Go into `DirA`: cd DirA
+5. Go into `Dir B` from `DirA`: cd ..\"Dir B"
+6. Return to your user's home directory: cd..
+7. Create a file named `test.txt`: New-Item -Name "test.txt"
+8. Move the file named `test.txt` into `DirA`: Move-Item -Path test.txt -Destination DirA
+9. Contents of `test.txt`: Set-Content -Path C:\Users\drews\DirA\test.txt "I will be the only cs major not in a homeless shelter pleeeeeeease"
 ```
-Put your words here
+I will be the only cs major not in a homeless shelter pleeeeeeease
 ```
-10. Make a copy of `test.txt` named `copy.txt` in `DirA`:
-11. View the contents of `DirA`: 
-12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`:
-13. Delete / remove both `fodder.txt` AND `Dir B`:
+10. Make a copy of `test.txt` named `copy.txt` in `DirA`: Copy-Item -Path .\test.txt -Destination .\copy.txt
+11. View the contents of `DirA`: ls DirA
+12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`: Copy-Item -Path .\test.txt -Destination C:\Users\drews\"Dir B"\fodder.txt
+13. Delete / remove both `fodder.txt` AND `Dir B`: Remove-Item "Dir B"
 
 ## Citations
 
 To add citations, provide the site and a summary of what it assisted you with.  If generative AI was used, include which generative AI system was used and what prompt(s) you fed it.
+
+https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-content?view=powershell-7.5
+Used it to figure out how to add content to the test file
 
 
 

@@ -54,7 +54,7 @@ I will be the only cs major not in a homeless shelter pleeeeeeease
 
 To add citations, provide the site and a summary of what it assisted you with.  If generative AI was used, include which generative AI system was used and what prompt(s) you fed it.
 
-https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-content?view=powershell-7.5 \newline
+https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/set-content?view=powershell-7.5 \
 Used it to figure out how to add content to the test file
 
 
